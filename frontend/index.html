@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="main">
+            <header>
+                <div class="title">
+                    <div class="text">
+                        <h3 class="head" id="time">12:30</h3>
+                    </div>
+                    <div class="text ">
+                        <p class="small day" id="day">WEDNESDAY</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="normal">
+                        <b id="nextAlarm">Lunch</b>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="time">
+                    <div class="hours time" id="hours">
+                        <div class="scroll-number two">0</div>
+                        <div class="scroll-number nine">0</div>
+                    </div>
+                    <div class="seprator">
+                        :
+                    </div>
+                    <div class="minutes time shade" id="minutes">
+                        <div class="scroll-number five">0</div>
+                        <div class="scroll-number nine">0</div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input">
+                        <input type="text" placeholder="New Alarm Name" id="name">
+                    </div>
+                    <div class="btn">
+                        <button type="button" id="submit">
+                            <i class="icon ri-alarm-add-line"></i> set
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side">
+            <div class="title">
+                <div class="text">
+                    <h3>Upcoming</h3>
+                </div>
+            </div>
+            <div class="content">
+                <div class="wrapper active">
+                    <div class="title">
+                        Lunch
+                    </div>
+                    <div class="text">
+                        <div class="time">
+                           <h4>12:40</h4>
+                        </div>
+                        <div class="btn">
+                            <button>
+                                <i class="icon ri-delete-bin-2-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
